@@ -1,0 +1,22 @@
+ name: DreamFly
+ version: 1.0
+ description: Basic fly enabling and disabling plugin.
+ author: gv1222
+ website: www.11thdream.net
+ main: net.dream.DreamFly.DreamFly
+ commands:
+   fly:
+     description: Turn fly mode on or off
+     usage: /<command> [player] [on|off]
+     permission: fly.fly
+ permissions:
+   fly.fly:
+     description: Allows use of /fly
+     default: op
+   fly.hit:
+     description: Allows you to use a bow while flying
+     default: op
+   fly.bow:
+     description: Allows you to use a bow while flying
+     default: op
+
